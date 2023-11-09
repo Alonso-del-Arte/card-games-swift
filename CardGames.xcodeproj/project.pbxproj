@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		614F9B9D2AFD6514005E69A2 /* CardGames */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CardGames; sourceTree = BUILT_PRODUCTS_DIR; };
 		614F9BA02AFD6514005E69A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		614F9BA82AFD66A9005E69A2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,8 @@
 		614F9B942AFD6514005E69A2 = {
 			isa = PBXGroup;
 			children = (
+				614F9BA82AFD66A9005E69A2 /* .gitignore */,
+				614F9BA72AFD6533005E69A2 /* PlayingCards */,
 				614F9B9F2AFD6514005E69A2 /* CardGames */,
 				614F9B9E2AFD6514005E69A2 /* Products */,
 			);
@@ -60,6 +63,13 @@
 				614F9BA02AFD6514005E69A2 /* main.swift */,
 			);
 			path = CardGames;
+			sourceTree = "<group>";
+		};
+		614F9BA72AFD6533005E69A2 /* PlayingCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PlayingCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
