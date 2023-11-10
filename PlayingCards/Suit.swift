@@ -9,12 +9,12 @@ import Foundation
 
 enum Suit: Character, CaseIterable {
     
-    case spades = "\u{2660}"
+    case spades = "\u{2660}\u{fe0f}"
     
-    case diamonds = "\u{2666}"
+    case diamonds = "\u{2666}\u{fe0f}"
     
-    case clubs = "\u{2663}"
+    case clubs = "\u{2663}\u{fe0f}"
     
-    case hearts = "\u{2665}"
+    case hearts = "\u{2665}\u{fe0f}"
     
 }
