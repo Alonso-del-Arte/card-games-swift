@@ -21,13 +21,13 @@ final class SuitTests: XCTestCase {
         for suit in Suit.allCases {
             let expected: Character = switch (suit) {
             case .spades: 
-                "\u{2660}"
+                "\u{2660}\u{fe0f}"
             case .diamonds:
-                "\u{2666}"
+                "\u{2666}\u{fe0f}"
             case .clubs:
-                "\u{2663}"
+                "\u{2663}\u{fe0f}"
             case .hearts:
-                "\u{2665}"
+                "\u{2665}\u{fe0f}"
             }
             let actual: Character = suit.rawValue
             XCTAssertEqual(expected, actual)
