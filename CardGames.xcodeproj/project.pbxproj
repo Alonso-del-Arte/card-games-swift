@@ -34,6 +34,7 @@
 		614F9BAC2AFD6ED4005E69A2 /* SuitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuitTests.swift; sourceTree = "<group>"; };
 		614F9BB22AFD7053005E69A2 /* CardGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		614F9BB42AFD7053005E69A2 /* CardGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGamesTests.swift; sourceTree = "<group>"; };
+		614F9BBE2AFDD3E6005E69A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		614F9B942AFD6514005E69A2 = {
 			isa = PBXGroup;
 			children = (
+				614F9BBE2AFDD3E6005E69A2 /* README.md */,
 				614F9BAB2AFD6EAC005E69A2 /* Tests */,
 				614F9BA82AFD66A9005E69A2 /* .gitignore */,
 				614F9BA72AFD6533005E69A2 /* PlayingCards */,
