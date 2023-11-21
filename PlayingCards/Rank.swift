@@ -53,6 +53,8 @@ enum Rank: CaseIterable {
         }
     }
     
+    func word() -> String {"SORRY, NOT IMPLEMENTED YET"}
+    
     func isRoyalCard() -> Bool {
         self == .jack || self == .queen || self == .king
     }
