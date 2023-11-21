@@ -17,12 +17,15 @@ final class PlayingCardTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testDescription() {XCTFail("HAVEN'T WRITTEN TEST YET")
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testDescription() {
+        for suit in Suit.allCases {
+            for rank in Rank.allCases {
+                let card: PlayingCard = PlayingCard(rank: rank, suit: suit)
+                let expected = "\(rank.word()) of \(suit.word())"
+                let actual = card.description
+                XCTAssertEqual(expected, actual)
+            }
+        }
     }
 
     func testPerformanceExample() throws {
