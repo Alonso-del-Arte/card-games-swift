@@ -38,6 +38,16 @@ final class RankTests: XCTestCase {
             XCTAssertEqual(expected, actual)
         }
     }
+    
+    func testIsRoyalCard() {
+        for rank in Rank.allCases {
+            if rank == .jack || rank == .queen || rank == .king {
+                XCTAssertTrue(rank.isRoyalCard(), "\(rank) should be a royal card")
+            } else {
+                XCTAssertFalse(rank.isRoyalCard(), "\(rank) should not be a royal card")
+            }
+        }
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
