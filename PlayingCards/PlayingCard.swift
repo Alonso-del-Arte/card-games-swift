@@ -17,6 +17,8 @@ struct PlayingCard: CustomStringConvertible {
         "\(self.rank.word()) of \(self.suit.word())"
     }
     
-    func shorthand() -> String {"SORRY, NOT IMPLEMENTED YET"}
+    func shorthand() -> String {
+        "\(self.rank.symbol())\(suit.rawValue)"
+    }
     
 }
