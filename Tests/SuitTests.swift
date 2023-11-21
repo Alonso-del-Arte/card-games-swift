@@ -33,6 +33,19 @@ final class SuitTests: XCTestCase {
             XCTAssertEqual(expected, actual)
         }
     }
+    
+    func testWord() {
+        for suit in Suit.allCases {
+            let expected: String = switch (suit) {
+            case .spades: "Spades"
+            case .diamonds: "Diamonds"
+            case .clubs: "Clubs"
+            case .hearts: "Hearts"
+            }
+            let actual: String = suit.word()
+            XCTAssertEqual(expected, actual)
+        }
+    }
 
 //    func testPerformanceExample() throws {
 //        // This is an example of a performance test case.
