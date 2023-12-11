@@ -64,9 +64,11 @@ final class RankTests: XCTestCase {
     func testIsRoyalCard() {
         for rank in Rank.allCases {
             if rank == .jack || rank == .queen || rank == .king {
-                XCTAssertTrue(rank.isRoyalCard(), "\(rank) should be a royal card")
+                XCTAssertTrue(rank.isRoyalRank(),
+                              "\(rank) should be a royal card")
             } else {
-                XCTAssertFalse(rank.isRoyalCard(), "\(rank) should not be a royal card")
+                XCTAssertFalse(rank.isRoyalRank(),
+                               "\(rank) should not be a royal card")
             }
         }
     }

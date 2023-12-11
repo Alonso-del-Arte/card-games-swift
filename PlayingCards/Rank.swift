@@ -71,7 +71,7 @@ enum Rank: CaseIterable {
         }
     }
     
-    func isRoyalCard() -> Bool {
+    func isRoyalRank() -> Bool {
         self == .jack || self == .queen || self == .king
     }
     
