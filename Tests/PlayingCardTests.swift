@@ -38,6 +38,18 @@ final class PlayingCardTests: XCTestCase {
             }
         }
     }
+    
+    func testRoyalCard() {
+        for suit in Suit.allCases {
+            for rank in Rank.allCases {
+                let card: PlayingCard = PlayingCard(rank: rank, suit: suit)
+                let message = rank.isRoyalRank() 
+                ? "\(card.shorthand()) should be a royal card"
+                : "\(card.shorthand()) should not be a royal card"
+                XCTAssertTrue(card.isRoyalCard() == rank.isRoyalRank(), message)
+            }
+        }
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
