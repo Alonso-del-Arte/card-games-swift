@@ -21,4 +21,9 @@ struct PlayingCard: CustomStringConvertible {
         "\(self.rank.symbol())\(suit.rawValue)"
     }
     
+    // TODO: Write tests for this
+    func isRoyalCard() -> Bool {
+        !self.rank.isRoyalRank()
+    }
+    
 }
