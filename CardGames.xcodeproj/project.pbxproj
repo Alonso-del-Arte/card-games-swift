@@ -12,6 +12,10 @@
 		614F9BB52AFD7053005E69A2 /* CardGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F9BB42AFD7053005E69A2 /* CardGamesTests.swift */; };
 		614F9BB92AFD7062005E69A2 /* SuitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F9BAC2AFD6ED4005E69A2 /* SuitTests.swift */; };
 		614F9BBB2AFD7357005E69A2 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F9BA92AFD67B1005E69A2 /* Suit.swift */; };
+		6153225A2B313AAF00831BDD /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615322592B313AAF00831BDD /* Deck.swift */; };
+		6153225B2B313AAF00831BDD /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615322592B313AAF00831BDD /* Deck.swift */; };
+		6153225D2B313B6500831BDD /* CardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153225C2B313B6500831BDD /* CardProvider.swift */; };
+		6153225E2B313B6500831BDD /* CardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153225C2B313B6500831BDD /* CardProvider.swift */; };
 		61AE3C292B0D33DF00079C35 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AE3C282B0D33DF00079C35 /* Rank.swift */; };
 		61AE3C2A2B0D33DF00079C35 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AE3C282B0D33DF00079C35 /* Rank.swift */; };
 		61AE3C2D2B0D379F00079C35 /* RankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AE3C2B2B0D379F00079C35 /* RankTests.swift */; };
@@ -47,6 +51,8 @@
 		614F9BB22AFD7053005E69A2 /* CardGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		614F9BB42AFD7053005E69A2 /* CardGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGamesTests.swift; sourceTree = "<group>"; };
 		614F9BBE2AFDD3E6005E69A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		615322592B313AAF00831BDD /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		6153225C2B313B6500831BDD /* CardProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProvider.swift; sourceTree = "<group>"; };
 		61AE3C282B0D33DF00079C35 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		61AE3C2B2B0D379F00079C35 /* RankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTests.swift; sourceTree = "<group>"; };
 		61AE3C2E2B0D48D300079C35 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
@@ -111,6 +117,8 @@
 				614F9BA92AFD67B1005E69A2 /* Suit.swift */,
 				61AE3C282B0D33DF00079C35 /* Rank.swift */,
 				61AE3C2E2B0D48D300079C35 /* PlayingCard.swift */,
+				615322592B313AAF00831BDD /* Deck.swift */,
+				6153225C2B313B6500831BDD /* CardProvider.swift */,
 			);
 			path = PlayingCards;
 			sourceTree = "<group>";
@@ -236,8 +244,10 @@
 				61AE3C3B2B0D651500079C35 /* BlackjackHand.swift in Sources */,
 				61AE3C352B0D64DF00079C35 /* BlackjackDealer.swift in Sources */,
 				614F9BAA2AFD67B1005E69A2 /* Suit.swift in Sources */,
+				6153225A2B313AAF00831BDD /* Deck.swift in Sources */,
 				61AE3C2F2B0D48D300079C35 /* PlayingCard.swift in Sources */,
 				614F9BA12AFD6514005E69A2 /* main.swift in Sources */,
+				6153225D2B313B6500831BDD /* CardProvider.swift in Sources */,
 				61AE3C382B0D650600079C35 /* BlackjackPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +265,8 @@
 				61AE3C302B0D48D300079C35 /* PlayingCard.swift in Sources */,
 				61AE3C3C2B0D651500079C35 /* BlackjackHand.swift in Sources */,
 				614F9BB52AFD7053005E69A2 /* CardGamesTests.swift in Sources */,
+				6153225B2B313AAF00831BDD /* Deck.swift in Sources */,
+				6153225E2B313B6500831BDD /* CardProvider.swift in Sources */,
 				61AE3C392B0D650600079C35 /* BlackjackPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
