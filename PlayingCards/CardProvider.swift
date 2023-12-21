@@ -18,4 +18,7 @@ protocol CardProvider {
     /// - Returns: A playing card. For example, Three of Spades.
     func getNextCard() -> PlayingCard
     
+    /// Shuffles the cards that have not been dealt yet.
+    func shuffle() -> Void
+    
 }

@@ -17,4 +17,9 @@ struct Deck : CardProvider {
         PlayingCard(rank: .ace, suit: .clubs)
     }
     
+    func shuffle() {
+        // TODO: Actually implement
+        #warning("procedure shuffle() has not been implemented yet")
+    }
+    
 }
